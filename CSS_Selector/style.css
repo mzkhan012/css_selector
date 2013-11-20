@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+  margin-left: 30px;
+  padding: 0;
+}
+
+h1{
+   color:#0066CC;
+}
+img[src]{border:5px solid #666;}
+
+input[placeholder="Enter your name"]
+{
+color:#999999;
+width:200px;
+height:30px;
+font-size:24px;
+}
+input[text~="email"]{}
+
+div[class^="box"]{width:250px;
+height:100px;
+background-color:#996;
+border:3px solid #060;
+}
+span[class$="paragraph"]{
+	color:#CC9900;
+	font-size:24px;
+}
+
+div[class*="substring"]{}
+
+ul li{list-style:none;}
+div ul li a{text-decoration:none;}
+a[href*="google.com"] {
+color:#FF0000;
+}
+ a[href*="facebook.com"] {
+color:#660066;
+font-family:Verdana, Geneva, sans-serif; font-size:24px;
+}
+a[href*="yahoo.com"] {
+background-color:#FF0;
+color:#660066;
+}
+
+p:nth-child(21){ background-color:#033;}
+
+p:nth-last-child(5){ background-color:#FF0;}
+
+p:nth-of-type(n) 
